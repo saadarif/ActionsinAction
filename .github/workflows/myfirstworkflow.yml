@@ -17,5 +17,5 @@ jobs:
 
       - name: List files
         run:  |
-          echo "The respositry ${{ github.repositry }} contains the following files:"
+          echo "The respositry ${{ github.repository }} contains the following files:"
           tree
