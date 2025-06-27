@@ -16,6 +16,6 @@ jobs:
         uses: actions/checkout@v4.2.2
 
       - name: List files
-      - run:  |
+        run:  |
           echo "The respositry ${{ github.repositry }} contains the following files:"
           tree
